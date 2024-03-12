@@ -1,0 +1,84 @@
+h1{
+    min-width: 500px;
+    background-color: rgb(79, 168, 139);
+    /*text shadow*/
+    text-shadow: 2px 2px 5px red;
+    /*font style*/
+    font-family: "Times New Roman", Times, serif;
+}
+/*outline style*/
+
+.dotted{
+    outline-style: dotted;
+    outline-color: rgb(24, 13, 13);
+    border-color: rgb(133, 209, 209);
+    letter-spacing: 5px;
+}
+.dashed{
+    outline-style: dashed;
+    outline-color: rgb(78, 16, 16);
+    border-color: rgb(133, 209, 209);
+}
+.solid{
+    outline-style: solid;
+    border-color: rgb(133, 209, 209);
+    outline-color: rgb(20, 4, 12);
+}
+.double{
+    outline-style: double;
+    border-color: rgb(133, 209, 209);
+    outline-color: rgb(44, 3, 23);
+}
+.groove{
+    outline-style: groove;
+    border-color: rgb(133, 209, 209);
+    outline-color: rgb(19, 5, 37);
+}
+.ridge{
+    outline-style: ridge;
+    border-color: rgb(133, 209, 209);
+    outline-color: rgb(23, 4, 53);
+}
+.inset{
+    outline-style: inset;
+    border-color: rgb(133, 209, 209);
+    outline-color: rgb(15, 14, 15);
+}
+.outset{
+    outline-style: outset;
+    border-color: rgb(133, 209, 209);
+    outline-color: rgb(10, 5, 77);
+}
+/*text decorations*/
+h2{
+    text-decoration-line: overline;
+    text-decoration-color: rgb(22, 8, 8);
+}
+h3{
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(80, 14, 14);
+}
+h4{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(22, 8, 8);
+}
+h5{
+    text-decoration-line: overline underline;
+    text-decoration-color: rgb(80, 14, 14);
+}
+
+/*text transformation*/
+.tt{
+    background-color: rgb(174, 199, 199);
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+    /*letter spacing*/
+    letter-spacing: 10px;
+}
+.capitalize{
+    text-transform: capitalize;
+}
