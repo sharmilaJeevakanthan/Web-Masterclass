@@ -1,0 +1,135 @@
+/*css style*/
+h1{
+    text-align: center;
+    color: black;
+}
+body{
+    /*backgrounds*/
+    background-color: antiquewhite;
+    
+}
+#subheading{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(189, 189, 25);
+
+}
+.content{
+    height: 500px;
+    width: 500px;
+    font-size: 30px;
+    border: 2px solid rgb(95, 14, 14);
+    color: black;
+    /*color: white;*/
+   
+    
+    background-image:url(./2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.rg{
+    border: 2px solid orange;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.dash{
+    border: 3px dashed orange;
+    /*border color rgb
+    border: 2px solid rgb(255, 99, 71);*/
+    /* border color transparent
+    border: 2px solid rgba(255, 99, 71,0.5);*/
+
+    color: black;
+    text-align: center;
+    font-size: 30px;
+
+}
+.left{
+    height: 200px;
+    width:30%;
+    font-size: 35px;
+    background-image:url(./2.webp);
+    background-position: left;
+    border: 1.5px solid rgb(2, 31, 2);
+    border-radius: 5px;
+
+}
+.left-top{
+    height: 200px;
+    font-size: 35px;
+    width:30%;
+    background-image:url(./2.webp);
+    background-position: left-top;
+    border: 1.5px solid rgb(2, 31, 2);
+    border-radius: 5px;
+}
+.left-bottom{
+    height: 200px;
+    width:30%;
+    font-size: 35px;
+    background-image:url(./2.webp);
+    background-position: left-bottom;
+    border: 1.5px solid rgb(2, 31, 2);
+    border-radius: 5px;
+    
+}
+.right{
+    height: 200px;
+    width:30%;
+    font-size: 35px;
+    background-image:url(./2.webp);
+    background-position: left-bottom;
+    border: 1.5px solid rgb(2, 31, 2);
+    border-radius: 5px;
+}
+.right-bottom{
+    height: 200px;
+    width:30%;
+    background-image:url(./2.webp);
+    background-position: right-bottom;
+    font-size: 35px;
+    border: 1.5px solid rgb(2, 31, 2);
+    border-radius: 5px;
+
+}
+.right-top{
+    height: 200px;
+    width:30%;
+    background-image:url(./2.webp);
+    background-position: right-top;
+    font-size: 35px;
+    border: 1.5px solid rgb(2, 31, 2);
+    border-radius: 5px;
+}
+.center{
+    height: 200px;
+    width:30%;
+    background-image:url(./2.webp);
+    background-position: center;
+    font-size: 35px;
+    border: 1.5px solid rgb(2, 31, 2);
+    border-radius: 5px;
+    
+}
+.ds{
+    height: 200px;
+    width: 700px;
+    margin: 2px 2px 2px 2px;
+    padding:4px 4px 4px 4px ;
+    border: 2px solid;
+    border-bottom-color: black;
+    border-top-color: rgb(184, 29, 29);
+    border-left-color: rgb(49, 13, 13);
+    border-right-color: rgb(16, 65, 16);
+    border-radius: 15px;
+    font-size: 20px;
+    /*
+    border-top: rgb(138, 29, 29);
+    border-bottom: rgb(11, 49, 11);
+    border-left: rgb(10, 10, 150);
+    border-right: rgb(105, 105, 12);*/
+
+}
